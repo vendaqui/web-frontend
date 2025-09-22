@@ -1,14 +1,17 @@
-name: CI
+name: Release
 
 on:
-  pull_request:
-    branches: [ main, develop ]
   push:
-    branches: [ develop ]
+    branches: [ main, develop ]
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
 
     steps:
       - name: Checkout
@@ -28,8 +31,7 @@ jobs:
       - name: Install
         run: pnpm install --frozen-lockfile
 
-      - name: Lint
-        run: pnpm lint || echo "No lint script"
-
-      - name: Build
-        run: pnpm build
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm release
