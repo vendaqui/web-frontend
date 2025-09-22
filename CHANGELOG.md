@@ -1,3 +1,8 @@
+## 1.1.0 (2025-09-22)
+
+* chore(ci): remove pnpm-workspace.yaml to fix pnpm store error ([085a5c9](https://github.com/vendaqui/web-frontend/commit/085a5c9))
+* feat(routes): add public/(sign-in,sign-up) and private/(dashboard) ([4443c02](https://github.com/vendaqui/web-frontend/commit/4443c02))
+
 ## 1.0.0 (2025-09-22)
 
 * chore: bootstrap Next.js app + CI + PR template ([2d2280f](https://github.com/vendaqui/web-frontend/commit/2d2280f))
