@@ -11,10 +11,10 @@ export function SiteHeader() {
   const { t } = useTranslation('common');
   const links = [
     { href: "/", label: "Home", icon: Briefcase },
-    { href: "#pricing", label: "Pricing", icon: Tag },
-    { href: "#faq", label: "FAQ", icon: HelpCircle },
-    { href: "#blog", label: "Blog", icon: FileText },
-    { href: "#about", label: "About", icon: Info },
+    // { href: "#pricing", label: "Pricing", icon: Tag },
+    // { href: "#faq", label: "FAQ", icon: HelpCircle },
+    // { href: "#blog", label: "Blog", icon: FileText },
+    // { href: "#about", label: "About", icon: Info },
   ];
 
   return (
@@ -24,11 +24,11 @@ export function SiteHeader() {
           {/* Brand Logo */}
           <Link href="/" className="flex items-center gap-1.5">
             <Image
-              src="/icons/skitbit-white.svg"
-              alt="Skitbit logo"
-              width={20}
-              height={20}
-              className="h-5 w-5"
+              src="/images/logo.jpg"
+              alt="Vendaqui logo"
+              width={50}
+              height={50}
+              className="h-10 w-10"
             />
             <span className="font-semibold tracking-wide text-white">Vendaqui</span>
           </Link>
@@ -78,8 +78,8 @@ export function SiteHeader() {
                 {/* Brand Header */}
                 <div className="flex items-center gap-1.5 px-4 py-4 border-b border-gray-800">
                   <Image
-                    src="/icons/skitbit-white.svg"
-                    alt="Skitbit logo"
+                    src="/images/logo.jpg"
+                    alt="Vendaqui logo"
                     width={24}
                     height={24}
                     className="h-6 w-6"
@@ -111,7 +111,7 @@ export function SiteHeader() {
                                hover:bg-lime-300 hover:shadow-md hover:scale-[1.02]
                                transition-all"
                   >
-                    <Link href="https://wa.link/65mf3i">{t('navbar.cta')}</Link>
+                    <Link href="#">{t('navbar.cta')}</Link>
                   </Button>
                 </div>
               </SheetContent>
