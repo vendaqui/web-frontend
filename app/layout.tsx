@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ApolloClientProvider } from "./apollo-provider";
-import { I18nProvider } from "./(private)/_providers/i18n-provider";
+import { I18nProvider } from "./_providers/i18n-provider"; 
 import { Plasma } from "../components/plasma";
 
 const poppins = Poppins({

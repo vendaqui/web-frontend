@@ -25,6 +25,5 @@ if (!i18next.isInitialized) {
 }
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  // @ts-expect-error: ReactNode type mismatch due to monorepo or types conflict
   return <I18nextProvider i18n={i18next}>{children}</I18nextProvider>;
 }
