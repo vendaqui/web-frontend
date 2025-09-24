@@ -1,3 +1,8 @@
+## <small>1.3.2 (2025-09-24)</small>
+
+* Merge branch 'main' of https://github.com/vendaqui/web-frontend ([9f3e8ed](https://github.com/vendaqui/web-frontend/commit/9f3e8ed))
+* fix: deploy ([4dd8ffb](https://github.com/vendaqui/web-frontend/commit/4dd8ffb))
+
 ## <small>1.3.1 (2025-09-24)</small>
 
 * Merge branch 'main' of https://github.com/vendaqui/web-frontend ([8b3ac82](https://github.com/vendaqui/web-frontend/commit/8b3ac82))
