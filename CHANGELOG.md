@@ -1,3 +1,7 @@
+## 1.3.0 (2025-09-24)
+
+* feat: initial public landing page with development notice and Plasma effect ([7ccc505](https://github.com/vendaqui/web-frontend/commit/7ccc505))
+
 ## 1.2.0 (2025-09-24)
 
 * feat(i18n): implement internationalization support with i18next ([6a7757d](https://github.com/vendaqui/web-frontend/commit/6a7757d))
