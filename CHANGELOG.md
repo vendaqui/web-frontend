@@ -1,3 +1,9 @@
+## 1.2.0 (2025-09-24)
+
+* feat(i18n): implement internationalization support with i18next ([6a7757d](https://github.com/vendaqui/web-frontend/commit/6a7757d))
+* Merge branch 'main' of https://github.com/vendaqui/web-frontend ([d96f65a](https://github.com/vendaqui/web-frontend/commit/d96f65a))
+* chore: add Prettier configuration and global types ([1986924](https://github.com/vendaqui/web-frontend/commit/1986924))
+
 ## 1.1.0 (2025-09-22)
 
 * chore(ci): remove pnpm-workspace.yaml to fix pnpm store error ([085a5c9](https://github.com/vendaqui/web-frontend/commit/085a5c9))
